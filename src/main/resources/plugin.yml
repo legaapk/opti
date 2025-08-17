@@ -1,0 +1,20 @@
+
+name: OptiFoundry
+main: com.optifoundry.OptiFoundry
+version: 0.3.2
+author: legaapk
+website: https://github.com/legaapk
+commands:
+  opti:
+    description: OptiFoundry control
+    usage: /opti [help|status|reload|chunksweep|itemsweep|toggle <module> <on|off>|kill ...]
+    aliases: [opt, of, optifoundry]
+    permission: optifoundry.use
+  optick:
+    description: World tick control (alias that works on all versions)
+    usage: /optick [query|rate <1-10000>|freeze|unfreeze|step <ticks>|step stop|sprint <seconds>|sprint stop]
+    permission: optifoundry.tick
+permissions:
+  optifoundry.use:  { default: op }
+  optifoundry.tick: { default: op }
+  optifoundry.kill: { default: op }

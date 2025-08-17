@@ -1,0 +1,13 @@
+
+target-tps: 20.0
+chunk-guardian:
+  enabled: true
+  respect-forceload: true
+  scan-interval-ticks: 60
+  player-buffer-chunks: 1
+item-flow:
+  enabled: true
+  merge-radius: 2.5
+  max-stack: 64
+  ttl-seconds: 180
+  blacklist-materials: []

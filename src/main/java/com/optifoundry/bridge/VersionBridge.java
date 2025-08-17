@@ -1,0 +1,1 @@
+package com.optifoundry.bridge; import org.bukkit.Chunk; public interface VersionBridge{boolean isForceloadSupported(); boolean isChunkForceLoaded(Chunk ch); void setChunkForceLoaded(Chunk ch, boolean v);}
